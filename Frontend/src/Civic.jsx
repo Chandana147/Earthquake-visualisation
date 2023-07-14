@@ -4,7 +4,7 @@ import L, { Icon } from 'leaflet';
 import './App.css'
 // Custom icon configuration for the earthquake markers
 const customIcon = new Icon({
-    iconUrl: '/mark.svg',
+    iconUrl: '/warning-icon.svg',
     iconSize: [40, 40],
     shadowSize: [41, 41]
 });
