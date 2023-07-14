@@ -6,7 +6,7 @@ This project aims to efficiently store, retrieve, and visualize earthquake data 
 The objective of this project is to develop a system that can fetch earthquake data from an API, transform the data, store it either in a database, provide an API service to fetch the stored data and visualize the data on a map using a suitable visualization library.
 
 # Getting Started
-Clone the repository: Clone the project repository from the following link: https://github.com/Chandana147/Earthquake-visualisation/tree/develop
+Clone the repository: Clone the project repository from the following link: https://github.com/Chandana147/Earthquake-visualisation.git
 Backend Setup: a. Navigate to the backend folder in the project directory. 
 b. Run npm install to install the required dependencies. 
 c. Start the backend server by running npm start.
