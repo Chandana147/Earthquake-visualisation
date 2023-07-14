@@ -33,9 +33,9 @@ const App=()=> {
       }
     }
   return (
-    <>
+    <div id="earth">
       <Civic earthquakesData={geoJson} />
-    </>
+    </div>
   );
 }
 export default App;
