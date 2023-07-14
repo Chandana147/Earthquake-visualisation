@@ -8,4 +8,5 @@ const data = new Schema({
     Latitude:String,
     Longtitude:String,
 })
+
 module.exports = earthquake = mongoose.model("earthquake", data)

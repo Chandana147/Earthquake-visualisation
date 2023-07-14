@@ -11,6 +11,7 @@ database.once("connected", ()=>{console.log("database connected")})
 const earthquake = require('./earthquake');
 const cors=require('cors');
 
+
 app.use(cors({
   origin: 'http://localhost:3000'
 }));

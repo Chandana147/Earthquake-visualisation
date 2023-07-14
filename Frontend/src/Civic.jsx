@@ -38,6 +38,7 @@ const Markers = ({ earthquakes }) => {
             map.fitBounds(bounds);
         }
     }, [earthquakes, map]);
+    
     // Mapping each earthquake to a Marker
     return earthquakes.map((earthquake) => {
         // Formatting the earthquake date
