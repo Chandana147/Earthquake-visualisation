@@ -12,7 +12,7 @@ const earthquake = require('./earthquake');
 const cors=require('cors');
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: ['http://localhost:3000',"https://earthquake-gqqp.onrender.com"]
 }));
 app.get('/fetchedData', async (req, res) => {
   try {
