@@ -34,6 +34,7 @@ const App=()=> {
     }
   return (
     <div id="earth">
+    Earthquake Visualization
       <Civic earthquakesData={geoJson} />
     </div>
   );
