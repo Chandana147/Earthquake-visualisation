@@ -11,7 +11,8 @@ Backend Setup: a. Navigate to the backend folder in the project directory.
 b. Run npm install to install the required dependencies. 
 c. Start the backend server by running npm start.
 Frontend Setup: a. In the project's root folder, create a new file named .env. 
-b. Open the .env file and add the following line to set the backend base URL: PORT=http://localhost:8080  coming to the back end DATABASE_URL="mongodb+srv://shinygrace147:shiny@cluster1.mex26dm.mongodb.net/"
+b. Open the .env file and add the following line to set the backend base ,
+  coming to the back end DATABASE_URL="mongoString"
 c. Run npm install to install the necessary dependencies for the front end. 
 d. Start the frontend development server by running npm start.
 You can access the application by opening your web browser and navigating to http://localhost:3000.

@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import axios from "axios";
-import Civic from "./Civic.jsx"
+import Civic from "./Earthquakes.jsx"
 import 'leaflet/dist/leaflet.css';
 
 const App=()=> {
@@ -34,7 +34,7 @@ const App=()=> {
     }
   return (
     <div id="earth">
-    Earthquake Visualization
+      Earthquake Visualization
       <Civic earthquakesData={geoJson} />
     </div>
   );
