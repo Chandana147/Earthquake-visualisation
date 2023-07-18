@@ -2,13 +2,13 @@ import { useEffect } from 'react';
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import L, { Icon } from 'leaflet';
 import './App.css'
-// Custom icon configuration for the earthquake markers
+// The display icon for the earthquake markers
 const customIcon = new Icon({
     iconUrl: '/warning-icon.svg',
     iconSize: [40, 40],
     shadowSize: [41, 41]
 });
-// Function to format Date
+// To display the format date
 const formatDate = (dateTime) => {
     var date = new Date(dateTime);
     var options = {
