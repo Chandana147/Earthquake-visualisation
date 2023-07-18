@@ -12,7 +12,7 @@ const earthquake = require('./earthquake');
 const cors=require('cors');
 
 app.use(cors({
-  origin: ['http://localhost:3000',"https://earthquake-visualisation.vercel.app"]
+  origin: ['http://localhost:3000',"https://earthquake-visualisation.vercel.app","https://earthquake-visualisation-kuevamv88-chandana147.vercel.app/"]
 }));
 app.get('/fetchedData', async (req, res) => {
   try {
